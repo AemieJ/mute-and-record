@@ -1,0 +1,26 @@
+{
+    "name": "Mute Tab & Record",
+    "version": "1.0",
+    "description": "Mute individual tabs, keep the record of tabs and also availability to record the audio from particular tab",
+    "permissions": ["cookies", "contextMenus", "storage", "declarativeContent", "activeTab", "tabs"],
+    "browser_action": {},
+    "background": {
+        "scripts": ["src/background.js"],
+        "persistent": false
+    },
+    "content_scripts": [{
+        "matches": [
+          "https://*/*",
+          "http://*/*"
+        ],
+        "js": ["src/content.js"],
+        "run_at": "document_end"
+      }],
+      "icons": {
+        "16": "icons/volume.png",
+        "48": "icons/volume.png",
+        "128": "icons/volume.png"
+
+      },
+    "manifest_version": 2
+  }
