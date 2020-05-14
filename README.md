@@ -9,4 +9,4 @@ No matter how much a person would want to avoid classes and in this way, you cou
 > Note: The extension was built on this idea but it can be used for any general cases where you want to mute audio on one tab and keep it going on for the other. 
 
 ## Using the extension on your local system
-All you have to do is clone the repository and go to `chrome://extension` and in the developer mode `load unpack` this particular folder. You can then use the extension to its full potential. 
+All you have to do is clone the repository and go to `chrome://extension` and in the developer mode select `Load unpacked` for this particular folder. You can then use the extension to its full potential. 
